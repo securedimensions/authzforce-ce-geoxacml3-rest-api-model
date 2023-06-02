@@ -8,7 +8,7 @@ Make sure JAVA 11 is installed and linked with Maven.
 
 ```shell
 $ git clone https://github.com/securedimensions/authzforce-ce-geoxacml3-rest-api-model.git 
-$ cd rest-api-model
+$ cd authzforce-ce-geoxacml3-rest-api-model
 $ git checkout -b custom-mediatype-geoxacml
 $ mvn versions:set -DnewVersion=6.0.0-geoxacml
 $ mvn clean package
