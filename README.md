@@ -19,5 +19,5 @@ To enable the GeoXACML media types, the existing Authzforce CE Rest-API-Model JA
 ```shell
 cd /opt/authzforce-ce-geoxacml3-rest-api-model
 sudo rm /opt/authzforce-ce-server/webapp/WEB-INF/lib/authzforce-ce-rest-api-model-6.0.0.jar
-sudo cp target/authzforce-ce-rest-api-model-6.0.0-geoxacml.jar into /opt/authzforce-ce-server/webapp/WEB-INF/lib
+sudo cp target/authzforce-ce-rest-api-model-6.0.0-geoxacml.jar /opt/authzforce-ce-server/webapp/WEB-INF/lib
 ```
