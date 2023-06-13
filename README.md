@@ -14,7 +14,7 @@ sudo mvn versions:set -DnewVersion=6.0.0-geoxacml
 sudo mvn clean package
 ```
 ## Installation
-To enable the GeoXACML media types, the existing Authzforce CE Rest-API-Model JAR must be removed and the generated JAR must be copied into the Authzforce CE webapp installation directory. The root directory of the Authzforce CE installation is called `<authzforce-server>`.
+To enable the GeoXACML media types, the existing Authzforce CE Rest-API-Model JAR must be removed and the generated JAR must be copied into the Authzforce CE webapp installation directory. The root directory of the Authzforce CE installation is considered to be `/opt/authzforce-ce-server`.
 
 ```shell
 cd /opt/authzforce-ce-geoxacml3-rest-api-model
