@@ -7,15 +7,15 @@ The [GeoXACML 3.0 plugin for the Authzforce CE Server](https://github.com/secure
 Make sure JAVA 11 is installed and linked with Maven.
 
 ```shell
-$ git clone -b custom-mediatype-geoxacml https://github.com/securedimensions/authzforce-ce-geoxacml3-rest-api-model.git 
-$ cd authzforce-ce-geoxacml3-rest-api-model
-$ mvn versions:set -DnewVersion=6.0.0-geoxacml
-$ mvn clean package
+git clone -b custom-mediatype-geoxacml https://github.com/securedimensions/authzforce-ce-geoxacml3-rest-api-model.git 
+cd authzforce-ce-geoxacml3-rest-api-model
+mvn versions:set -DnewVersion=6.0.0-geoxacml
+mvn clean package
 ```
 ## Installation
 To enable the GeoXACML media types, the existing Authzforce CE Rest-API-Model JAR must be removed and the generated JAR must be copied into the Authzforce CE webapp installation directory. The root directory of the Authzforce CE installation is called `<authzforce-server>`.
 
 ```shell
-$ rm <authzforce-ce>/webapp/WEB-INF/lib/authzforce-ce-rest-api-model-6.0.0.jar
-$ cp target/authzforce-ce-rest-api-model-6.0.0-geoxacml.jar into <authzforce-ce>/webapp/WEB-INF/lib
+rm <authzforce-ce>/webapp/WEB-INF/lib/authzforce-ce-rest-api-model-6.0.0.jar
+cp target/authzforce-ce-rest-api-model-6.0.0-geoxacml.jar into <authzforce-ce>/webapp/WEB-INF/lib
 ```
