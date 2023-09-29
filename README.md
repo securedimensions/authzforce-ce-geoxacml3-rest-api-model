@@ -1,8 +1,8 @@
 # GeoXACML 3.0 JSON Profile support
-This package is a fork of the [Authzforce CE Rest-API-Model package](https://github.com/authzforce/rest-api-model/tree/custom-mediatype-geoxacml) for supporting GeoXACML 3.0 media types. The GeoXACML 3.0 media types `application/geoxacml+xml` and `applicaiton/geoxacml+json` are added.
+This package is a fork of the [Authzforce CE Rest-API-Model package](https://github.com/authzforce/rest-api-model/tree/custom-mediatype-geoxacml) for supporting GeoXACML 3.0 media types. The GeoXACML 3.0 media types `application/geoxacml+xml` and `application/geoxacml+json` are added.
 
 * The [OGC Geospatial eXtensible Access Control Markup Language (GeoXACML) 3.0](https://docs.ogc.org/is/22-049r1/22-049r1.html) standard defines the `application/geoxacml+xml` media type.
-* The [OGC Geospatial eXtensible Access Control Markup Language (GeoXACML) 3.0 JSON Profile 1.0](https://docs.ogc.org/is/22-050r1/22-050r1.html) standard defines the `applicaiton/geoxacml+json` media type. **_Note:_** The registration of this media type with IANA is still pending.
+* The [OGC Geospatial eXtensible Access Control Markup Language (GeoXACML) 3.0 JSON Profile 1.0](https://docs.ogc.org/is/22-050r1/22-050r1.html) standard defines the `application/geoxacml+json` media type. **_Note:_** The registration of this media type with IANA is still pending.
 
 The [GeoXACML 3.0 plugin for the Authzforce CE Server](https://github.com/securedimensions/authzforce-ce-geoxacml3) requires the JAR compiled from this repository.
 
